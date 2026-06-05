@@ -3,6 +3,21 @@
 Thumbs.db
 *.swp
 
+# Development workspace files
+.github/
+.vscode/
+docs/
+src/
+src-tauri/
+static/
+*.cmd
+package.json
+pnpm-lock.yaml
+svelte.config.js
+tsconfig.json
+vite.config.js
+kight-shift/
+
 # Dependencies
 node_modules/
 
@@ -19,6 +34,8 @@ vite.config.ts.timestamp-*
 
 # Local release artifacts
 /knight-shift-installer.exe
+!/release/
+!/release/knight-shift-installer.exe
 
 # Logs
 *.log
