@@ -33,9 +33,9 @@ vite.config.ts.timestamp-*
 /src-tauri/gen/
 
 # Local release artifacts
-/knight-shift-installer.exe
+/damage-control-installer.exe
 !/release/
-!/release/knight-shift-installer.exe
+!/release/damage-control-installer.exe
 
 # Logs
 *.log
